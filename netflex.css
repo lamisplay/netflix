@@ -1,0 +1,19 @@
+*{
+margin: 0;
+padding: 0;
+}
+.tee{background-image: url(netflix\ black.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position-x: center;
+    background-blend-mode: multiply;
+
+}
+.work{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    
+    
+    
+}

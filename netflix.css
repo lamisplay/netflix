@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto Ubuntu ,sans-serif;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.553);
+}
+.LAMI{
+    background-image: url(background.jpeg.jpg); 
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    background-blend-mode: multiply;
+}
+.GIRL{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 390px;
+    margin-bottom: 50px;
+}
+.sign{
+    margin-right: 370px;
+    
+}
+.sign button{
+    height: 100px;
+    width: 130%;
+    background-color: red;
+    color: white;
+    font-size: 60px;
+    margin-top: 55%;
+    border: none;
+    border-radius: 30px;
+}
+.police{
+    color: white;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: 300px;
+}
+.input{
+    background-color: black;
+    border-radius: 7px;
+    height: 120px;
+    width: 1000px;
+    font-size: 70px;
+    text-align: center;
+
+}
+.getstartedbutton{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 150px;
+    width: 600px;
+    font-weight: bold;
+    font-size: 70px;
+}
+.placeholder{
+    margin-top: 200px;
+}
+.section2{
+    margin-top: 350px;
+    background-color: black;
+    color: white;
+    height: 90vh;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3{
+    background-color: black;
+    margin-top: 30px;
+    height: 80vh;
+    color: white;
+    display: flex;
+    font-size: 150px;
+    align-items: center;
+}
+.section4{
+    background-color: black;
+    margin-top: 40px;
+    height: 75vh;
+    color: white;
+    font-size: 140px;
+    display: flex;
+    align-items: center;
+}
+.final{
+    background-color: black;
+    margin-top: 35px;
+    height: 60vh;
+    color: white;
+    font-size: 170px;
+    margin-left: left;
+    padding: 1000px;
+}
+.class{
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+.eclass{
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    height: 150vh;
+    width: 100%;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 300px;
+
+}
+.maindiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.bigdiv{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    width: 70%;
+    height: 10vh;
+    justify-content: space-between;
+
+}
+#plus{
+    display: block;
+    text-align: center;
+    font-size: 90px;
+}
+#cancelled{
+    display: none;
+    font-size: 90px ;
+}
+.netdiv{
+    display: flex;
+}
+.dropback{
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    margin-top: 3px;
+    display: none;
+    width: 69.5%;
+    text-align: justify;
+}.netdiv{
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    font font-weight: 24px;
+    
+}
+.maindiv:focus-within .dropback{
+    display: block;
+}
+.maindiv:focus-within #plus{
+    display: none;
+}
+.maindiv:focus-within #cancelled{
+    display: block;
+}
+.placehold2{
+    margin-top: 50px;
+}
+.input2{
+    width: 33%;
+    height: 180px;
+    font-size: 70px;
+    
+}
+.getstartedbutton2{
+    width: 18%;
+    height: 180px;
+    font-size: 70px;
+    color: white;
+    background-color: red;
+}
+.last{
+    background-color: black;
+    height: 80vh;
+    margin-top: 35px;
+    color: white;
+    font-size: 65px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.first{
+    color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-top: 3%;
+}
+a{
+    color: white;
+}
+.english{
+    border-radius: 2px;
+    height: 20px;
+    width: 40px;
+    display: flex;
+}
+.z{
+    width: 600px;
+    font-size: 80px;
+}
+.Last2{
+    display: flex;
+    padding: 2%;
+    padding-right: 3%;
+    padding-top: 7%;
+}
+.last3{
+    display: flex;
+    padding: 1%;
+    padding-top: 7%;
+    padding-right: 1%
+}
+.last4{
+    display: flex;
+    padding: 1%;
+    padding-top: 7%;
+    padding-right: 20%;
+}
+
